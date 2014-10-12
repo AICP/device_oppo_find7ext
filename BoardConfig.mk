@@ -37,6 +37,9 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE   := 1073741824
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 13747929088 # 13747945472 - 16384 for crypto footer
 #BOARD_USERDATAIMAGE_PARTITION_SIZE := 3221225472
 
+# Kernel - particular for this device, NOT defined on msm8974-common
+BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x3F ehci-hcd.park=3
+
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_find7
 
