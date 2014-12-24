@@ -33,3 +33,7 @@ $(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-2048-hwui
 
 # Inherit from find7-common
 $(call inherit-product, device/oppo/find7-common/find7.mk)
+
+# Ramdisk
+PRODUCT_PACKAGES += \
+    fstab.qcom
