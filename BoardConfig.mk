@@ -18,7 +18,7 @@
 -include device/oppo/find7-common/BoardConfigCommon.mk
 
 # Recovery
-TARGET_RECOVERY_FSTAB := device/oppo/find7/rootdir/etc/fstab.qcom
+TARGET_RECOVERY_FSTAB := device/oppo/find7ext/rootdir/etc/fstab.qcom
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := find7,find7a,X9007,X9006,FIND7
